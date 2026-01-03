@@ -1,0 +1,38 @@
+﻿Calculating task graph as configuration cache cannot be reused because JVM has changed.
+.\gradlew.bat : 
+En línea: 1 Carácter: 1
++ .\gradlew.bat 
+:composeApp:assembleDebug 
+--console=plain 2>&1 | 
+Out-Fi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          
+    : NotSpe    cified: 
+(:String    ) [], 
+RemoteExce    ption
+    + FullyQualified    
+ErrorId : Native    
+CommandError
+ 
+FAILURE: Build failed with 
+an exception.
+
+* What went wrong:
+25
+
+* Try:
+> Run with --stacktrace 
+option to get the stack 
+trace.
+> Run with --info or 
+--debug option to get more 
+log output.
+> Run with --scan to get 
+full insights.
+> Get more help at 
+https://help.gradle.org.
+
+BUILD FAILED in 1s
+Configuration cache entry stored.
